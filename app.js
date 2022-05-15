@@ -63,9 +63,10 @@ btn.addEventListener('click', function() {
 
             changeWeather(desc, temp);
 
-            p1.innerHtml = cityName;
-            p2.innerHtml = temp;
-            p3.innerHtml = time;
+
+            p1.innerHTML = cityName;
+            p2.innerHTML = temp;
+            p3.innerHTML = time;
 
 
 
